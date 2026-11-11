@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exe01"/>
+        <attribute name="authors" value="RODRIGOPLETSCHARAMBU"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-11-09 08:35:43 "/>
+        <attribute name="created" value="Uk9EUklHT1BMRVRTQ0hBUkFNQlU7VVJVMjIwMDc1OzIwMjYtMTEtMDk7IjA3OjUzOjI2ICI7MzI2MA=="/>
+        <attribute name="edited" value="Uk9EUklHT1BMRVRTQ0hBUkFNQlU7VVJVMjIwMDc1OzIwMjYtMTEtMDk7IjA4OjM1OjQzICI7MTszMzY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="metros" type="Real" array="False" size=""/>
+            <declare name="centimetros" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe um valor em metros: &quot;" newline="True"/>
+            <input variable="metros"/>
+            <assign variable="centimetros" expression="metros * 100"/>
+            <output expression="metros &amp; &quot;m em centimetros &#233;&quot; &amp; centimetros" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
